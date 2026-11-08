@@ -23,7 +23,11 @@ Steps:
   13) Configure the network adapter as you design your lab but for initial installation Enable Adapter 1 (NAT) and Adapter 2 (Bridged Adapter)
   14) Launch the Image (FG) then wait till everything is done
   15) Login using initial credentials username(admin) and password(  )
-  16) We need two important things (Validate our free license) and (configure interface of the machine to allow us access the login webpage of the firewall) 
+  16) We need two important things (Validate our free license) and (configure an interface of the machine to allow us access the login webpage of the firewall)
+  17) Validate the License use command: 'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
+  18) execute vm-license-options account-password YOUR_PASSWORD
+  19) execute vm-license
+  20) Press Y to accept ad launch the operation 
   
 
 
