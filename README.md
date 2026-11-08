@@ -34,7 +34,7 @@ Steps:
 
        Press 'Y' to accept and launch the operation
   
-   18) Let's configure the interface use command:
+Let's configure the interface use command:
        'get system interface physical' # Check the interface 1 - port 1 wit NAT IP and interface 2 - port 2 with 0.0.0.0 
         # Let's configure interface 2
         'config system interface'
