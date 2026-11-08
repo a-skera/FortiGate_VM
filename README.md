@@ -43,11 +43,17 @@ Steps:
    20) Let's configure interface 2 - port 2 in order to use the login Webpage use command:
        
         'config system interface'
+       
         'edit port2'
+
         'set mode dhcp'
+
         'set defaultgw enable'
+
         'set allowaccess ping http https ssh'
+
         'next'
+
         'end'
       
    
