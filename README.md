@@ -14,6 +14,13 @@ Steps:
   4) Extract the .KVM FortiGate image into a desired path let's call it "C:\FFG_PATH"
   5) Make sure QEMU's path is in your 'System Environment Variables' (If you will use another converter to convert from .KVM to .VDI skip this)
   6) Use this command to convert the image "qemu-img convert -p -f qcow2 -O vdi fortios.qcow2 fortios.vdi"
-  7) 
+  7) Let's assume you've copied the fresh new image 'fortios.vdi' to another path call it "C:\FFG_PATH_FOR_VBOX"
+  8) Launch Virtual Box and use the configurations in the photos
+  9) <img width="924" height="576" alt="9" src="https://github.com/user-attachments/assets/df95a6c6-c243-4591-afa0-bc3eb487b2d1" />
+  10) <img width="1212" height="531" alt="10" src="https://github.com/user-attachments/assets/89eacd44-8f23-46da-a168-4b7c03ee5fe3" />
+  11) <img width="1201" height="580" alt="11" src="https://github.com/user-attachments/assets/b86950ec-0594-42fd-9235-ed7fc76fcaef" />
+
+
+
  
   
