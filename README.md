@@ -20,6 +20,9 @@ Steps:
   10) <img width="1212" height="531" alt="10" src="https://github.com/user-attachments/assets/89eacd44-8f23-46da-a168-4b7c03ee5fe3" />
   11) <img width="1201" height="580" alt="11" src="https://github.com/user-attachments/assets/b86950ec-0594-42fd-9235-ed7fc76fcaef" />
   12) <img width="759" height="472" alt="12" src="https://github.com/user-attachments/assets/caa387ab-9b38-425c-945b-1cb156aead3f" /> (Boot Order)
+  13) Configure the network adapter as you design your lab but for initial installation Enable Adapter 1 (NAT) and Adapter 2 (Bridged Adapter)
+  14) 
+  15) 
   
 
 
