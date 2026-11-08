@@ -55,7 +55,14 @@ Steps:
         'next'
 
         'end'
-      
+
+   21) Wait 5 or 10 seconds then use the command:
+
+       'get system interface physical' # to view the new ip on interface 2 - port 2
+
+       'execute ping <the ip>'
+       
+       
    
   
 
