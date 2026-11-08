@@ -26,13 +26,26 @@ Steps:
   16) We need two important things (Validate our free license) and (configure an interface of the machine to allow us access the login webpage of the firewall)
   17) Validate the License use command:
       
-      'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
+      'execute vm-license-options account-id your_email@example.com' # Replace the email with your registered Fortinet account email
       
-      'execute vm-license-options account-password fake@password.com' Replace the fake@password with your Fortinet account password'
+      'execute vm-license-options account-password fake@password.com' # Replace the fake@password with your Fortinet account password'
 
       'execute vm-license'
 
-       Press 'Y' to accept and launch the operation 
+       Press 'Y' to accept and launch the operation
+  
+  18) Let's configure the interface use command:
+       'get system interface physical' # Check the interface 1 - port 1 wit NAT IP and interface 2 - port 2 with 0.0.0.0 
+        # Let's configure interface 2
+        'config system interface'
+        'edit port2'
+        'set mode dhcp'
+        'set defaultgw enable'
+        'set allowaccess ping http https ssh'
+        'next'
+        'end'
+      
+   
   
 
 
