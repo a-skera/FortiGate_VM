@@ -60,7 +60,11 @@ Steps:
 
        'get system interface physical' # to view the new ip on interface 2 - port 2
 
-       'execute ping <the ip>'
+   22) On your host machine use the terminal to ping the IP
+   
+   23) Then use that IP on the browser to login normally
+   
+   24) 
        
        
    
