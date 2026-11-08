@@ -24,10 +24,12 @@ Steps:
   14) Launch the Image (FG) then wait till everything is done
   15) Login using initial credentials username(admin) and password(  )
   16) We need two important things (Validate our free license) and (configure an interface of the machine to allow us access the login webpage of the firewall)
-  17) Validate the License use command: 'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
-  18) execute vm-license-options account-password YOUR_PASSWORD
-  19) execute vm-license
-  20) Press Y to accept ad launch the operation 
+  17) Validate the License use command:
+      
+      'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
+      'execute vm-license-options account-password fake-password-123' Replace the fake-password-123 with your Fortinet account password'
+      'execute vm-license'
+       Press 'Y' to accept ad launch the operation 
   
 
 
