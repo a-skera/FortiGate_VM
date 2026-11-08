@@ -28,7 +28,7 @@ Steps:
       
       'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
       
-      'execute vm-license-options account-password fake@password' Replace the fake@password with your Fortinet account password'
+      'execute vm-license-options account-password fake@password.com' Replace the fake@password with your Fortinet account password'
 
       'execute vm-license'
 
