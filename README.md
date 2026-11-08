@@ -64,7 +64,10 @@ Steps:
    
    23) Then use that IP on the browser to login normally
    
-   24) 
+   24) <img width="890" height="604" alt="fin" src="https://github.com/user-attachments/assets/c59d048c-26c9-44e6-acb6-907e43d1dbbf" />
+
+   25) Congratulations! 
+
        
        
    
