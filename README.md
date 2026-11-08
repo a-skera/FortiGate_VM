@@ -37,9 +37,10 @@ Steps:
        Press 'Y' to accept and launch the operation
   
    18) Let's have an overview on network interfaces use command:
+       
        'get system interface physical' # Check the interface 1 - port 1 wit NAT IP and interface 2 - port 2 with 0.0.0.0 
 
-   19) Let's configure interface 2 - port 2 in order to use the login Webpage use command:
+   20) Let's configure interface 2 - port 2 in order to use the login Webpage use command:
        
         'config system interface'
         'edit port2'
