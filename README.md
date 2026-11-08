@@ -27,8 +27,11 @@ Steps:
   17) Validate the License use command:
       
       'execute vm-license-options account-id your_email@example.com' Replace the email with your registered Fortinet account email
+      
       'execute vm-license-options account-password fake-password-123' Replace the fake-password-123 with your Fortinet account password'
+
       'execute vm-license'
+
        Press 'Y' to accept ad launch the operation 
   
 
