@@ -32,7 +32,7 @@ Steps:
 
       'execute vm-license'
 
-       Press 'Y' to accept ad launch the operation 
+       Press 'Y' to accept and launch the operation 
   
 
 
