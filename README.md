@@ -24,6 +24,8 @@ Steps:
   14) Launch the Image (FG) then wait till everything is done
   15) Login using initial credentials username(admin) and password(  )
   16) We need two important things (Validate our free license) and (configure an interface of the machine to allow us access the login webpage of the firewall)
+  
+  
   17) Validate the License use command:
       
       'execute vm-license-options account-id your_email@example.com' # Replace the email with your registered Fortinet account email
@@ -34,9 +36,11 @@ Steps:
 
        Press 'Y' to accept and launch the operation
   
-Let's configure the interface use command:
+   18) Let's have an overview on network interfaces use command:
        'get system interface physical' # Check the interface 1 - port 1 wit NAT IP and interface 2 - port 2 with 0.0.0.0 
-        # Let's configure interface 2
+
+   19) Let's configure interface 2 - port 2 in order to use the login Webpage use command:
+       
         'config system interface'
         'edit port2'
         'set mode dhcp'
